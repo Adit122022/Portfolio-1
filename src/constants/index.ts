@@ -7,6 +7,10 @@ import type {
   TProject,
 } from "../types";
 
+import stackwaveImage from "../assets/stackwace.png";
+import clarityImage from "../assets/1.png";
+import annovaImage from "../assets/Annova.png";
+
 import {
   mobile,
   backend,
@@ -64,39 +68,41 @@ const projects: TProject[] = [
   {
     name: "Stackwave",
     description:
-      "A full-stack Q&A platform inspired by Stack Overflow. Users can post questions, submit answers, and interact with a community. Includes authentication, voting, and a generative AI agent for smart code suggestions.",
+      "A full-stack Q&A platform inspired by Stack Overflow. Features include secure authentication, upvoting, and a built-in AI assistant for code-related queries. Built with React, Node.js, and Tailwind CSS.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
       { name: "nodejs", color: "green-text-gradient" },
       { name: "tailwind", color: "pink-text-gradient" },
     ],
-    image: web,
+    image: stackwaveImage,
     sourceCodeLink: "https://github.com/Adit122022/StackWave2",
   },
   {
     name: "Clarity AI",
     description:
-      "Responsive image enhancement tool using React and Tailwind CSS. Integrated PicWish AI API for automatic image upscaling and quality enhancement.",
+      "A sleek, responsive image enhancer using the PicWish API. Allows users to upscale and improve image quality instantly. Developed with React and Tailwind CSS.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
       { name: "axios", color: "green-text-gradient" },
       { name: "tailwind", color: "pink-text-gradient" },
     ],
-    image: mobile,
-    sourceCodeLink: "https://github.com/Adit122022/YT-Study/tree/main/FRONTEND_PROJECTS/ImageInhancer",
+    image: clarityImage,
+    sourceCodeLink:
+      "https://github.com/Adit122022/YT-Study/tree/main/FRONTEND_PROJECTS/ImageInhancer",
   },
   {
     name: "Annova Chat App",
     description:
-      "A real-time chat application built with React, Zustand, and Socket.IO. Features include authentication, profile management, theme switching, and image sharing via Cloudinary.",
+      "A modern real-time chat app with user authentication, profile management, theming, and image sharing. Built with React, Zustand, and Socket.IO for seamless communication.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
       { name: "socket.io", color: "green-text-gradient" },
       { name: "zustand", color: "pink-text-gradient" },
     ],
-    image: backend,
+    image: annovaImage,
     sourceCodeLink: "https://github.com/Adit122022/ANNOVA_CHAT_APP",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
