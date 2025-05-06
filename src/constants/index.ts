@@ -65,6 +65,7 @@ const experiences: TExperience[] = [];
 const testimonials: TTestimonial[] = [];
 
 const projects: TProject[] = [
+  
   {
     name: "Stackwave",
     description:
